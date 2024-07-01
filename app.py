@@ -16,8 +16,8 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-
-COHERE_API_KEY= os.getenv('cohere_api')
+COHERE_API_KEY=st.secrets('COHERE_key')
+#COHERE_API_KEY= os.getenv('cohere_api')
 
 
 
