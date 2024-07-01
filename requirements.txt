@@ -13,3 +13,4 @@ langchain_cohere
 langchainhub
 
 PyPDF2
+pypdf
