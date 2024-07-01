@@ -4,13 +4,12 @@ cohere
 streamlit
 langchain_community
 langserve
-fastapipypdf
+
 chromadb
 faiss-cpu
 
 
-wikipedia
-arxiv
+
 langchainhub
 
 PyPDF2
