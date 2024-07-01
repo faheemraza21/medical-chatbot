@@ -14,3 +14,4 @@ langchainhub
 
 PyPDF2
 pypdf
+pysqlite3-binary
