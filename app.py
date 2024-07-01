@@ -12,11 +12,18 @@ from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain.chains import RetrievalQA
 from langchain.chains import create_retrieval_chain
 import streamlit as st
-from constant import cohere_key
+import os
+from dotenv import load_dotenv
 
-embeddings_model = CohereEmbeddings(cohere_api_key=cohere_key)
+load_dotenv()
 
-llm=Cohere(cohere_api_key=cohere_key)
+COHERE_API_KEY= os.getenv('cohere_api')
+
+
+
+embeddings_model = CohereEmbeddings(cohere_api_key=COHERE_API_KEY)
+
+llm=Cohere(cohere_api_key=COHERE_API_KEY)
 
 def doc_preprocessing():
     loader = PyPDFLoader('med.pdf')
