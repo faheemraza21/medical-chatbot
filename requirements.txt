@@ -4,11 +4,11 @@ cohere
 streamlit
 langchain_community
 langserve
-
+langchain
 chromadb
 faiss-cpu
-
-
+langchain_text_splitters
+langchain_cohere
 
 langchainhub
 

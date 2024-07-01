@@ -1,9 +1,8 @@
 
-from langchain_community.llms import ollama
+
 from langchain_community.document_loaders import WebBaseLoader
 from langchain_community.vectorstores import Chroma
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_community.embeddings import OllamaEmbeddings
 from langchain_cohere import CohereEmbeddings
 from langchain_cohere.llms import Cohere
 from langchain_community.document_loaders import PyPDFLoader
